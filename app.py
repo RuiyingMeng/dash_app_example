@@ -24,11 +24,11 @@ df.head()
 # Use regular expression to clean the data i.e. delete charts behind numbers. It will take several minutes
 # not necessary to run. it doesn't influence the graphs below
 
-import re
-for row in range(len(df)):
-    for column in range(3, len(df.columns)):
-        df.iloc[row,column] = re.sub(pattern = "\s[a-z]+", repl = "", string = df.iloc[row, column])
-df.head()
+#import re
+#for row in range(len(df)):
+#    for column in range(3, len(df.columns)):
+#        df.iloc[row,column] = re.sub(pattern = "\s[a-z]+", repl = "", string = df.iloc[row, column])
+#df.head()
 
 
 # In[5]:
